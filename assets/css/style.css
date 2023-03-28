@@ -36,15 +36,9 @@ a {
     text-decoration: none;
 }
 /* Header begin */
-header{
+.hero{
     background-color: #E6F0FF;
     height: 100vh;
-   
-}
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    /* padding-top: 40px; */
 }
 .header__fixed {
     position: sticky;
@@ -53,6 +47,13 @@ header{
     z-index: 99;
     background-color: #E6F0FF;
 
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 20px;  */
+    padding: 12px 0;
+    align-items: center;
 }
 .navbar__left {
     display: flex;
