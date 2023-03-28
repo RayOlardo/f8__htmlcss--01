@@ -21,8 +21,8 @@
 <body>
     <!-- Header begin -->
     <header>
-        <div class="content">
-            <nav class="navbar">
+        <div class="header__fixed content">
+            <nav class="navbar navbar__fixed">
                 <nav class="navbar__left">
                     <nav class="navbar__logo">
                         <img src="./assets/img/Logo.svg" alt="Logo">
@@ -30,7 +30,7 @@
                     <nav class="navbar__menu">
                         <ul>
                             <li><a href="">Home</a></li>
-                            <li><a href="">Features</a></li>
+                            <li><a href="#featured">Features</a></li>
                             <li><a href="">Services</a></li>
                             <li><a href="">Resources</a></li>
                             <li><a href="">Contact</a></li>
@@ -87,11 +87,21 @@
         </section>
 
         <section class="social__banner">
-            <img src="./assets/img/logo (1).svg" alt="logo-1">
-            <img src="./assets/img/logo (2).svg" alt="logo-2">
-            <img src="./assets/img/logo (3).svg" alt="logo-3">
-            <img src="./assets/img/logo (4).svg" alt="logo-4">
-            <img src="./assets/img/logo (5).svg" alt="logo-5">
+            <a href="#" class="social__banner--img">
+                <img src="./assets/img/logo (1).svg" alt="logo-1">
+            </a>
+            <a href="#" class="social__banner--img">
+                <img src="./assets/img/logo (2).svg" alt="logo-2">
+            </a>
+            <a href="#" class="social__banner--img">
+                <img src="./assets/img/logo (3).svg" alt="logo-3">
+            </a>
+            <a href="#" class="social__banner--img">
+                <img src="./assets/img/logo (4).svg" alt="logo-4">
+            </a>
+            <a href="#" class="social__banner--img">
+                <img src="./assets/img/logo (5).svg" alt="logo-5">
+            </a>
         </section>
     </div>
     <!-- social end -->
@@ -136,7 +146,7 @@
     <!-- guides end -->
 
     <!-- featured begin -->
-    <section class="featured">
+    <section id="featured" class="featured">
         <div class="content">
             <h2>Featured Properties</h2>
             <div class="featured__text">
