@@ -4,11 +4,11 @@
 }
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Poppins', sans-serif;
     color: #0F1B4C;
-    scroll-behavior: smooth;
 }
 /* common */
 .content{
@@ -127,9 +127,11 @@ a {
 }
 .hero__info {
     display: flex;
+    justify-content: center;
 }
 .header__image {
     position: relative;
+    padding-right: 120px;
     top: 59px;
     left: 85px;
 }
